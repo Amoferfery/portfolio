@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
-import avatar from "../assets/images/header/Hamid.png";
+import avatar from "../assets/images/header/Amir.jpg";
 
 class Header extends Component {
     titles = [];
@@ -97,21 +97,21 @@ class Header extends Component {
                             }}
                         />
                         <h1 style={{ color: "#f4f4f4", marginBottom: 7, textAlign: 'center' }}>
-                            <span style={{ fontSize: '4.0vh' }}>Hamid Bashiri</span>
+                            <span style={{ fontSize: '4.0vh' }}>Amir Farahani</span>
                         </h1>
                         <h1 style={{ color: "#f4f4f4", fontSize: '4vh', textAlign: 'center'}}>
-                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"mailto:hvbashiri@gmail.com"}>
+                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"mailto:Amirferyg@gmail.com"}>
                                 <span style={{ margin: 7 }} className="iconify" data-icon="mdi:email" />
                             </a>
-                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"https://www.linkedin.com/in/hbashiri/"}>
+                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"https://www.linkedin.com/in/amir-farahani-091649223/"}>
                                 <span style={{ margin: 7 }} className="iconify" data-icon="mdi:linkedin" />
                             </a>
-                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"https://www.instagram.com/h__bashiri/"}>
+                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"https://www.instagram.com/amirfery/"}>
                                 <span style={{ margin: 7 }} className="iconify" data-icon="mdi:instagram" />
                             </a>
-                            <a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"https://medium.com/@hvbashiri"}>
-                                <span style={{ margin: 7 }} className="iconify" data-icon="mdi:alpha-m-box" />
-                            </a>
+                            {/*<a style={{ color: "#f4f4f4", textDecoration: "none"}} href={"https://medium.com/@hvbashiri"}>*/}
+                            {/*    <span style={{ margin: 7 }} className="iconify" data-icon="mdi:alpha-m-box" />*/}
+                            {/*</a>*/}
                         </h1>
                     </div>
                     <div
@@ -130,8 +130,7 @@ class Header extends Component {
                             }}
                         >
             <span style={{ fontSize: '2.3vh' }}>
-                Passionate  game developer with 5 years of experience focused on PC games using Unity engine and C#. I excel in various aspects of game development, including designing project architecture, developing AI systems, creating tools and implementing gameplay features. With an additional 2 years of experience in software engineering and an MSc degree in software engineering, I have a solid educational background that complements my practical experience.
-                Have a look at my technical articles in <a style={{color: "#F4A261"}} href={"https://medium.com/@hvbashiri"}>Medium</a>.
+                Passionate  game developer with 5 years of experience focused on PC games using Unity engine and C#. I excel in various aspects of game development, including designing project architecture, developing AI systems, creating tools and implementing gameplay features. With an additional 2 years of experience in software engineering and an BSc degree in software engineering, I have a solid educational background that complements my practical experience.
             </span>
                         </h3>
                     </div>

@@ -1,16 +1,16 @@
 {
     "basic_info": {
-      "name": "Hamid Bashiri",
+      "name": "Amir Farahani",
       "titles": [ "Game Developer", "Game Designer", "Data Scientist"],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com/hbashiri/",
+          "url": "https://github.com/Amirfery/",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com/h__bashiri/",
+          "url": "https://www.instagram.com/amirfery/",
           "class": "fab fa-instagram"
         }
       ],

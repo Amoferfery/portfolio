@@ -17,7 +17,7 @@ import Sketches from "./components/Sketches";
 import colony from "./assets/images/experience/colony11.png";
 import utLogo from "./assets/images/experience/UT_logo.png";
 import moolfa from "./assets/images/experience/moolfa.png"
-import iust from "./assets/images/experience/iust.png";
+import qolenj from "./assets/images/experience/1630652738156.jpeg";
 import noopArmyLogo from "./assets/images/experience/noopArmyLogo.png";
 import PaeezanLogo from "./assets/images/experience/PaeezanLogo.png";
 
@@ -44,35 +44,35 @@ import art3 from "./assets/images/arts/concept-art/Sketch1.jpg"
 import art4 from "./assets/images/arts/concept-art/Sketch2.jpg"
 import art5 from "./assets/images/arts/concept-art/watermill.gif"
 
-import HDIcon from "./assets/images/projects/hexaDominoes/icon.jpg";
-import HDScreenShot1 from "./assets/images/projects/hexaDominoes/1.png";
-import HDScreenShot2 from "./assets/images/projects/hexaDominoes/2.png";
-import HDScreenShot3 from "./assets/images/projects/hexaDominoes/3.png";
-import HDScreenShot4 from "./assets/images/projects/hexaDominoes/4.png";
-import HDScreenShot5 from "./assets/images/projects/hexaDominoes/5.png";
-import HDSetting from "./assets/images/projects/hexaDominoes/setting.png";
+import HDIcon from "./assets/images/projects/hexadominoes/Icon.jpg";
+import HDScreenShot1 from "./assets/images/projects/hexadominoes/1.png";
+import HDScreenShot2 from "./assets/images/projects/hexadominoes/2.png";
+import HDScreenShot3 from "./assets/images/projects/hexadominoes/3.png";
+import HDScreenShot4 from "./assets/images/projects/hexadominoes/4.png";
+import HDScreenShot5 from "./assets/images/projects/hexadominoes/5.png";
+import HDSetting from "./assets/images/projects/hexadominoes/setting.png";
 
-import BRIcon from "./assets/images/projects/bridgeRun/icon.jpg";
-import BRScreenShot1 from "./assets/images/projects/bridgeRun/1.png";
-import BRScreenShot2 from "./assets/images/projects/bridgeRun/2.png";
-import BRScreenShot3 from "./assets/images/projects/bridgeRun/3.png";
-import BRScreenShot4 from "./assets/images/projects/bridgeRun/4.png";
-import BRShop from "./assets/images/projects/bridgeRun/shop.png";
-import BRVictoryPanel from "./assets/images/projects/bridgeRun/victoryPanel.png";
-import BRStartPage from "./assets/images/projects/bridgeRun/startPage.png";
+import BRIcon from "./assets/images/projects/bridgerun/icon.jpg";
+import BRScreenShot1 from "./assets/images/projects/bridgerun/1.png";
+import BRScreenShot2 from "./assets/images/projects/bridgerun/2.png";
+import BRScreenShot3 from "./assets/images/projects/bridgerun/3.png";
+import BRScreenShot4 from "./assets/images/projects/bridgerun/4.png";
+import BRShop from "./assets/images/projects/bridgerun/shop.png";
+import BRVictoryPanel from "./assets/images/projects/bridgerun/victoryPanel.png";
+import BRStartPage from "./assets/images/projects/bridgerun/startPage.png";
 
 import parallexBackground from "./assets/images/arts/DominoColorBanner.png";
 
-import ELPortrait from "./assets/images/projects/ephemeralLight/Portrait.jpg"
-import ELLandscape from "./assets/images/projects/ephemeralLight/Landscap.jpg"
-import EL1 from "./assets/images/projects/ephemeralLight/1.png"
-import EL2 from "./assets/images/projects/ephemeralLight/2.png"
-import EL3 from "./assets/images/projects/ephemeralLight/3.png"
-import EL4 from "./assets/images/projects/ephemeralLight/4.png"
-import EL5 from "./assets/images/projects/ephemeralLight/5.png"
-import EL6 from "./assets/images/projects/ephemeralLight/6.png"
-import EL7 from "./assets/images/projects/ephemeralLight/7.png"
-import EL8 from "./assets/images/projects/ephemeralLight/8.png"
+import ELPortrait from "./assets/images/projects/EphemeralLight/Portrait.jpg"
+import ELLandscape from "./assets/images/projects/EphemeralLight/Landscap.jpg"
+import EL1 from "./assets/images/projects/EphemeralLight/1.png"
+import EL2 from "./assets/images/projects/EphemeralLight/2.png"
+import EL3 from "./assets/images/projects/EphemeralLight/3.png"
+import EL4 from "./assets/images/projects/EphemeralLight/4.png"
+import EL5 from "./assets/images/projects/EphemeralLight/5.png"
+import EL6 from "./assets/images/projects/EphemeralLight/6.png"
+import EL7 from "./assets/images/projects/EphemeralLight/7.png"
+import EL8 from "./assets/images/projects/EphemeralLight/8.png"
 
 class App extends Component {
 
@@ -85,51 +85,35 @@ class App extends Component {
         experience: [
           {
             technologies:["Ephemeral Light"],
-            mainTech: ["Unity", "C#", "UI Toolkit", "MVP"],
-            years: "2022.5 - present",
+            mainTech: ["Unity", "C#", "UI Toolkit", "MVP", "AI"],
+            years: "2022.8 - present",
             title: "Game Developer",
             company: "Paeezan Studio",
             companyIcon: PaeezanLogo,
           },
           {
-            technologies:["Enlightenment"],
-            mainTech: ["Unity", "C#", "DOTS", "UI Toolkit"],
-            years: "2021.4 - 2021.10",
+            technologies: ["Serious Games"],
+            mainTech: ["Unity", "C#"],
+            years: "2021 - present",
             title: "Game Developer",
-            company: "NoOp Army",
-            companyIcon: noopArmyLogo,
+            company: "Maghzineh.com",
+            companyIcon: utLogo,
           },
           {
-            technologies:[],
-            mainTech: ["Unity", "C#"],
-            years: "2020.10 - 2020.12",
-            title: "Game Developer and Designer",
-            company: "Colony11",
-            companyIcon: colony,
+              technologies: ["Metroidvania Game"],
+              mainTech: ["Unity", "C#"],
+              years: "2020.6 - 2020.9",
+              title: "Freelance Game Developer",
+              company: "Freelance",
+              companyIcon: qolenj,
           },
           {
               mainTech: ["Major: Software Engineering"],
-              technologies: ["Thesis: Multi-Modal route advisory system"],
-              years: "2018.9 - 2021.03",
+              technologies: ["Teacher Assistant", "Unity Course Instructor"],
+              years: "2018.9 - present",
               title: "Computer Engineering",
-              company: "Tehran University",
+              company: "University of Tehran",
               companyIcon: utLogo,
-          },
-          {
-              technologies: ["Hexa Dominoes, Waterfall"],
-              mainTech: ["Unity", "C#"],
-              years: "2015.9 - 2017.10",
-              title: "Freelance Game Developer",
-              company: "Freelance",
-              companyIcon: moolfa,
-          },
-          {
-              mainTech: ["Major: Hardware Engineering"],
-              technologies: ["Game design course in 2016"],
-              years: "2013.09 - 2018.06",
-              title: "Computer Engineering",
-              company: "Iran University of Science and Technology",
-              companyIcon: iust,
           }
         ],
         projects: [
@@ -260,20 +244,6 @@ class App extends Component {
               }
             ],
           },
-        arts: [
-          {
-            title: "Sketches",
-            thumbnail: art3,
-            images: [
-              art3,
-              art5,
-              art1,
-              art2,
-              art0,
-              art4
-            ],
-          },
-        ],
         basic_info: {
           section_name: {
             experience: "My Journey",
