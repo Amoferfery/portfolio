@@ -15,7 +15,9 @@ import Sketches from "./components/Sketches";
 
 
 import colony from "./assets/images/experience/colony11.png";
-import utLogo from "./assets/images/experience/UT_logo.png";
+import utLogo from "./assets/images/experience/Islamic_Azad_University_logo_(2).png";
+import honarestan from "./assets/images/experience/honarestan-logo1.png";
+import freelancer from "./assets/images/experience/Freelancer.png";
 import moolfa from "./assets/images/experience/moolfa.png"
 import qolenj from "./assets/images/experience/1630652738156.jpeg";
 import noopArmyLogo from "./assets/images/experience/noopArmyLogo.png";
@@ -84,36 +86,29 @@ class App extends Component {
       resumeData: {
         experience: [
           {
-            technologies:["Ephemeral Light"],
-            mainTech: ["Unity", "C#", "UI Toolkit", "MVP", "AI"],
-            years: "2022.8 - present",
-            title: "Game Developer",
-            company: "Paeezan Studio",
-            companyIcon: PaeezanLogo,
-          },
-          {
-            technologies: ["Serious Games"],
-            mainTech: ["Unity", "C#"],
-            years: "2021 - present",
-            title: "Game Developer",
-            company: "Maghzineh.com",
-            companyIcon: utLogo,
-          },
-          {
-              technologies: ["Metroidvania Game"],
-              mainTech: ["Unity", "C#"],
-              years: "2020.6 - 2020.9",
-              title: "Freelance Game Developer",
+              technologies: ["Cinema4D", "After Effects", "Adobe Illustrator"],
+              mainTech: ["Social Media Admin", "Photographer", "Video Editor"],
+              years: "2019 - present",
+              title: "Freelance Content Editor",
               company: "Freelance",
-              companyIcon: qolenj,
+              companyIcon: freelancer,
           },
           {
-              mainTech: ["Major: Software Engineering"],
-              technologies: ["Teacher Assistant", "Unity Course Instructor"],
-              years: "2018.9 - present",
-              title: "Computer Engineering",
-              company: "University of Tehran",
+              mainTech: ["Major: Industrial Design"],
+              technologies: ["Rhinoceros 3D", "3DS Max", "Maya", "Solid Works"],
+              years: "2015 - 2019",
+              title: "Industrial Design",
+              company: "Islamic Azad University",
               companyIcon: utLogo,
+          }
+          ,
+          {
+              mainTech: ["Diploma of Animation"],
+              technologies: ["Edius", "Premiere", "Photoshop"],
+              years: "2011 - 2015",
+              title: "Animation",
+              company: "School of Broadcasting",
+              companyIcon: honarestan,
           }
         ],
         projects: [
@@ -318,18 +313,18 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <EphemeralLight
+        {/* <EphemeralLight
             resumeProjects={this.state.resumeData.ephemeralLight}
             resumeBasicInfo={this.state.resumeData.basic_info}
-          />
+          /> */}
         {/*<HexaDominoes*/}
         {/*    resumeProjects={this.state.resumeData.dominoes}*/}
         {/*    resumeBasicInfo={this.state.resumeData.basic_info}*/}
         {/*/>*/}
-        <Projects
+        {/* <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+        /> */}
 
         {/*<Parallax bgImage={parallexBackground} strength={500}>*/}
         {/*  <div style={{ height: window.innerHeight }}>*/}

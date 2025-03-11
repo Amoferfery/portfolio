@@ -1,11 +1,11 @@
 {
     "basic_info": {
-      "name": "Amir Farahani",
-      "titles": [ "Game Developer", "Game Designer", "Data Scientist"],
+      "name": "Alireza Farahani",
+      "titles": [ "Graphic Designer", "Video Editor", "Photographer"],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com/Amirfery/",
+          "url": "https://github.com/Amoferfery/",
           "class": "fab fa-github"
         },
         {
@@ -14,7 +14,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "Alireza.jpg"
     },
     "skills": {
       "icons": [
